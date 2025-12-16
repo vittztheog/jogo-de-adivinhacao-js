@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #f4f4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    padding: 3rem;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 0px;
+    box-shadow: 10px 10px 0px #000;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.header h2 {
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header ul {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    border-left: 3px solid #ddd;
+    margin-left: 10px;
+}
+
+.inputs {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputs label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 0;
+    background-color: #fff;
+    outline: none;
+    transition: background 0.2s;
+}
+
+input[type="number"]:focus {
+    background-color: #e0e0e0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 0;
+    box-shadow: 4px 4px 0px #000;
+    transition: all 0.1s ease;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000;
+}
+
+#btn-chute:hover {
+    background-color: #b8ffce;
+}
+
+.secondary:hover {
+    background-color: #ffcccc;
+}
+
+button:disabled {
+    background-color: #ddd;
+    border-color: #999;
+    color: #999;
+    box-shadow: none;
+    cursor: not-allowed;
+    transform: translate(2px, 2px);
+}
+
+.mensagens {
+    border-top: 3px solid #000;
+    padding-top: 20px;
+    min-height: 100px;
+}
+
+#dicas {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #fff3cd;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+#resultado {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#tentativas {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+}
