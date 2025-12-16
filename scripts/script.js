@@ -1,6 +1,7 @@
 // 1. Seleção de elementos (Entrada de Dados)
 const inputPalpite = document.getElementById("palpite");
 const btnChute = document.getElementById("btn-chute");
+const btnReiniciar = document.getElementById("btn-reiniciar");
 const pDicas = document.getElementById("dicas");
 const pResultado = document.getElementById("resultado");
 const pTentativas = document.getElementById("tentativas");
@@ -77,6 +78,7 @@ function encerrarJogo() {
 
 // Adiciona o evento de clique ao botão
 btnChute.addEventListener('click', verificarChute);
+btnReiniciar.addEventListener('click', iniciarJogo);
 
 // Inicia o jogo ao carregar a página
 iniciarJogo();

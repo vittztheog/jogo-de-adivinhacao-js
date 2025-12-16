@@ -52,6 +52,7 @@ body {
     font-size: 0.9rem;
     border-left: 3px solid #ddd;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .inputs {
@@ -111,6 +112,10 @@ button:active {
 }
 
 #btn-chute:hover {
+    background-color: #b8ffce;
+}
+
+#btn-reiniciar:hover {
     background-color: #b8ffce;
 }
 
