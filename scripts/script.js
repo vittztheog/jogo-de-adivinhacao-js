@@ -21,6 +21,10 @@ function iniciarJogo() {
     pTentativas.textContent = `Tentativas restantes: ${tentativasRestantes}`;
     pDicas.textContent = "";
     pResultado.textContent = "";
+
+    inputPalpite.value = "";
+    inputPalpite.focus();
+
     inputPalpite.disabled = false;
     btnChute.disabled = false;
 }
